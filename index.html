@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <h1>Tic Tac Toe</h1>
+    <div class="main-container">
+        <div class="center-container">
+            <div class="row-1">
+                <div id="tile-1" onclick="playGame('1')" class="game-tiles"></div>
+                <div id="tile-2" onclick="playGame('2')" class="game-tiles"></div>
+                <div id="tile-3" onclick="playGame('3')" class="game-tiles"></div>
+            </div>
+            <div class="row-2">
+                <div id="tile-4" onclick="playGame('4')" class="game-tiles"></div>
+                <div id="tile-5" onclick="playGame('5')" class="game-tiles"></div>
+                <div id="tile-6" onclick="playGame('6')" class="game-tiles"></div>
+            </div>
+            <div class="row-3">
+                <div id="tile-7" onclick="playGame('7')" class="game-tiles"></div>
+                <div id="tile-8" onclick="playGame('8')" class="game-tiles"></div>
+                <div id="tile-9" onclick="playGame('9')" class="game-tiles"></div>
+            </div>
+            <div style="display: none;" id="restart-game">
+                <div id="winner"></div>
+                <div id="restart-button" onclick="restartGame()"><h2 id="restart">Restart</h2></div>
+            </div>
+        </div>
+    
+    </div>
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
